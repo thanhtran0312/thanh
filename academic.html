@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" style="background: white">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Background</title>
+    <link
+    rel="stylesheet"
+    href="./academic.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+   
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+        <a href="./thanhtran.html" class="active">Thanh Tran</a>
+        <a href="./academic.html" class="name">Academic Background</a>
+        <a href="./research.html">Research Experience</a>
+        <a href="./books.html">Books</a>
+        <a href="./blog.html">Blog</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+</div>
+<h1>Where and what do I study?</h1>
+<hr/>
+<div class="main">
+    <div class="left-box">
+      <a href="lcc.html" id="left"><i class="icon fas fa-graduation-cap"></i> LCC International University</a>
+        <p class="card-text">An accredited international university with a focus on liberal arts education.</p>
+        
+    </div>
+    <div class="right-box">
+        <a href="online.html" id="right"><i class="fas fa-search"></i> Online courses</a>
+        <p>Take a look at all the courses that I have been taking online. </p>
+    </div>
+
+</div>
+
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>

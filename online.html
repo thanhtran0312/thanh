@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Online courses</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="./online.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<div class="topnav" id="myTopnav">
+    <a href="./thanhtran.html" class="active">Thanh Tran</a>
+    <a href="./academic.html" class="name">Academic Background</a>
+    <a href="./research.html">Research Experience</a>
+    <a href="./books.html">Books</a>
+    <a href="./blog.html">Blog</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+</div>
+<div class="main">
+    <h1>Online courses</h1>
+    <hr />
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Medical Neuroscience | Duke University | Coursera</h5>
+            <p>Where I have explored more about the physiology and anatomy of the human central nervous system with a
+              neurobiological framework to understand human behavior, decision making, sensation, memory, emotion, and
+              other faculties of cognition.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Python | Udemy</h5>
+            <p> Started from a beginner-friendly level with a basic understanding of variables, functions, object
+              orientation to complex projects with different strategies for data analysis.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Web Development | Udemy</h5>
+            <p>Best testament: I learned how to create this website.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Computational Neuroscience | Coursera</h5>
+            <p>The course offers knowledge in biological aspects of neurons, receptive fields, different levels of
+              processing, and computational models behind those with the use of Matlab.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+
+</html>

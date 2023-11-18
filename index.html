@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" style="background: white">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="./index.css"
+    />
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+    <a href="./thanhtran.html" class="active">Thanh Tran</a>
+    <a href="./academic.html">Academic Background</a>
+    <a href="./research.html">Research Experience</a>
+    <a href="./books.html">Books</a>
+    <a href="./blog.html">Blog</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+    
+<div>
+    <img class="Thanh-photo" src="./img.JPEG">
+    <h1 class="Thanh-title">Thanh Tran </h1>
+    <h3 style="font-weight:normal">thanhtttran.0312@gmail.com</h2>
+    <p class="Thanh-introduction">I am finishing my bachelor's program in Psychology at LCC International University in Lithuania. In 2024, I will be joining the Department of Sensory and Sensorimotor Systems, led by Prof. Li Zhaoping, at the Max Planck Institute for Biological Cybernetics and University of Tuebingen as a research intern to gain hands-on research experience before embarking on another academic endeavor. I am also applying to postgraduate programs in Cognitive Neuroscience.</p>
+    <br/>
+    <a class="Thanh-CV" href="./cv.html">MY CV</a>
+    <br/>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+
+<br />
+<br />
+<hr />
+<div class="main">
+    <div class="left-box">
+      <h2 id="left"><i class="icon fas fa-graduation-cap"></i>Study</h2>
+        <p class="card-text">When I say I study Psychology, people think I study fortune telling or reading others' minds.
+            My casual conversation: do you know why in a picture with flash at night our eyes are red while a cat's eyes glow? Because our choroid is black and has veins, and a cat's tapetum is reflective.</p>
+    </div>
+    <div class="right-box">
+        <h2><i class="fas fa-search"></i></h2>
+        <h2 id="right">Research Interest</h2>
+        <p>The moment that piqued my research interest was during my Cognition class, where we analyzed conflicting eyewitness testimonies related to the tragic case of the killing of a teenage black boy, Mike Brown, by a white police officer, Darren Wilson. Witness accounts varied significantly, raising questions about the influence of implicit biases, attention control, and pre-existing knowledge on perception. The way people perceived identical situations so differently based on the stimuli to which their attention was drawn deeply fascinated me. Therefore, my interests pertain to neural mechanisms underlying visual attentional and perceptual processes. </p>
+    </div>
+
+</div>
+
+
+</body>
+</html>
